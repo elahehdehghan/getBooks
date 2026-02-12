@@ -24,7 +24,7 @@ par = {
     }
 
 response = requests.get(url,params=par)
-data = response.jason()
+data = response.json()
 
 books = data.get('docs', [])
 num_found = data.get('num_found',0)
