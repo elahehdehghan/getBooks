@@ -17,7 +17,7 @@ def save_page_num(page_num):
     
 current_page = get_current_page()   
 par = {
-    "q" : "law",
+    "q" : "python",
     "limit" : 50,
     "page" : current_page,
     "fields" : "title,author_name,first_publish_year"
